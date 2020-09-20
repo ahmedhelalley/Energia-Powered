@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energia Form</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="Title">
+        <font face="Arial"><h1>Energia Powered Form</h1></font>
+    </div>
+    <div class="contactinfo">
+        <a href="https://www.facebook.com/Energia.Powered" target="_blank">Facebook</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/" target="_blank">Google</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.instagram.com/energia.powered/" target="_blank">Instagram</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://twitter.com/energia_powered?lang=en" target="_blank">Twitter</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.youtube.com/channel/UCxNgZOJJx9LzqWLhCEu8Djw" target="_blank">YouTube</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label>Phone Number : 01148762666</label>
+    </div>
+    <img src="WhatsApp Image 2020-09-18 at 4.52.52 PM.jpeg" alt="Energia Powered Logo" width="200px" class="center">
+    <marquee id="motion" behaviour="scroll" direction="left" scrollamount="10"><p class="text"><b>Energia Powered - Members Recruitment</b></p></marquee><br>
+    <form action="">
+    <fieldset>
+        <legend>Instructor Info.</legend>
+        <textarea placeholder="Tell us about your self" rows="10" cols="100" id="info"></textarea>
+    </fieldset><br>
+    <hr>
+    <h2>Register Now !</h2>
+    <fieldset id="personal-info">
+        <legend>Your Personal Info.</legend>
+        <label for="Full Name">&nbsp;&nbsp;Full Name</label><br>
+        <input type="text" placeholder=" Write your Full Name" name="Full Name" class="textbox"><br>
+        <label for="Email">&nbsp;&nbsp;Email</label><br>
+        <input type="text" placeholder=" e.g: johnSmith@gmail.com" name="Email" class="textbox"><br>
+        <label for="Address">&nbsp;&nbsp;Address</label><br>
+        <input type="text" placeholder=" Write your Address" name="Address" class="textbox"><br>
+        <label for="University">&nbsp;&nbsp;University</label><br>
+        <input type="text" placeholder=" Write your University Name" name="University" class="textbox"><br>
+        <label for="Faculty">&nbsp;&nbsp;Faculty</label><br>
+        <input type="text" placeholder=" Write your Faculty" name="Faculty" class="textbox"><br>
+        <label for="Department">&nbsp;&nbsp;Department</label><br>
+        <input type="text" placeholder=" Write your Department" name="Department" class="textbox"><br>
+        <label for="Gender">&nbsp;&nbsp;Gender</label><br>
+        <select name="Gender" id="gender-list">
+            <option value="None">None</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        
+        
+        
+
+    </fieldset><br>
+    <hr><br>
+    <fieldset id="bigger">
+        <legend>Your Course</legend>
+        <label for="Course">Choose One Course</label><br>
+        <input type="radio" name="Course" Value="Python">
+        <label for="Python">Python</label><br>
+        <input type="radio" name="Course" Value="Arduino">
+        <label for="Arduino">Arduino</label><br>
+        <label for="Date">Date You Want : </label><br>
+        <input type="date" name="Date"><br>
+        <label for="Time">Choose Course Time : </label><br>
+        <input type="radio" value="15:00" name="Time">
+        <label for="15:00">15:00</label><br>
+        <input type="radio" value="18:00" name="Time">
+        <label for="18:00">18:00</label><br>
+        <input type="radio" name="Time" value="Other">
+        <label for="Other">Other : </label>
+        <input type="time" name="Time">
+        <input type="hidden" name="Time">
+        
+
+    </fieldset><br><hr><br>
+    <fieldset id="Message">
+        <legend>Your Message</legend>
+        <p>Your Comment</p>
+        <textarea name="Message" cols="40" rows="10"></textarea><br>
+    </fieldset><br>
+    <input type="checkbox" name="checkbox1">
+    <label for="checkbox1">I agree to the terms and policy</label><br><br>
+    <input type="reset" value="Reset" class="button1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="submit" value="Submit" class="button">
+    </form>
+    <p id="BigLabel">" Never Stop Learning, Because Life Never Stop Teaching "</p>
+</body>
+<!--script src="script.js"></script-->
+</html>
