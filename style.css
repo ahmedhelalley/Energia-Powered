@@ -1,0 +1,39 @@
+body{
+    background-image: url(https://images.pexels.com/photos/4173624/pexels-photo-4173624.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50px;
+}
+#color{
+    
+    font-style: italic;
+    color: rgb(255,162,162);
+    font-size: 24pt;
+}
+#date{
+    color: rgb(255,162,162);
+    font-size: 15pt;
+}
+button{
+    padding: 20px 40px 20px 40px;
+    font-size: 18pt;
+    background-color: rgb(255,162,162);
+    color: white;
+    border-radius: 15px;
+    border: 0px;
+    margin-top: 150px;
+}
+
+.first{
+    color: rgb(255,162,162);
+    
+}
+.inline{
+    display: inline-block;
+}
+.links a{
+    color: rgb(255,162,162);
+    margin-left: 20px;
+    margin-right: 19px;
+}
